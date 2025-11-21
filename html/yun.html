@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>历史文物</title>
+</head>
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: black;
+        display: flex;
+    }
+
+    .box {
+        border-radius: 15%;
+        height: 800px;
+        width: 1280px;
+        margin: 80px auto;
+        background-color: rgb(60, 82, 82);
+        display: flex;
+        overflow: hidden;
+        animation: color 9s infinite linear;
+        /* position: absolute; */
+    }
+
+    img {
+        height: 1000px;
+        top: -100px;
+        /* width: 900%; */
+        position: relative;
+        /* left: 1000px; */
+        animation: box 9s infinite linear;
+    }
+
+    @keyframes box {
+        0% {
+            left: 100px;
+        }
+
+        100% {
+            left: -1000px;
+        }
+    }
+
+    @keyframes color {
+        0% {
+            background-color: cadetblue;
+        }
+
+        50% {
+            background-color: black;
+        }
+
+        100% {
+            background-color: rgb(65, 106, 107);
+        }
+    }
+</style>
+
+<body>
+    <div class="box">
+        <img src="../images/ww.png" alt="">
+
+    </div>
+
+    <script>
+        var box = document.querySelector(".box");
+        box.classList.add("active");
+    </script>
+</body>
+
+</html>

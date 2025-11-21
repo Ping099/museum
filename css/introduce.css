@@ -1,0 +1,95 @@
+body {
+    background-color: lightsalmon !important;
+    /* background-color: brown !important; */
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    line-height: 70px;
+    font-family: '微软雅黑';
+    color: brown;
+    background-color: antiquewhite;
+}
+
+.container {
+    background-color: antiquewhite;
+}
+
+.row {
+    height: 1000px;
+}
+
+.container .container {
+    width: 50px;
+    height: 50px;
+}
+
+.card {
+    position: absolute;
+    float: right;
+    width: 550px;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+}
+
+.list-group {
+    float: left;
+}
+
+.list-group li {
+    width: 400px;
+}
+
+.col {
+    position: relative;
+}
+
+.lift {
+    position: absolute;
+
+    left: 520px;
+}
+
+/* .card-header {
+
+   
+} */
+
+.card-body.js {
+    max-height: 400px;
+    width: 100%;
+    overflow: auto;
+    line-height: 25px;
+    /* background-image: url(../images/lb2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.card-link {
+
+    font-weight: bold;
+    font-size: 20px;
+    color: brown;
+}
+
+.hang {
+    height: 330px;
+}
+
+/* .hang:nth-child(2) {} */
+
+.hang h3 {
+    border-bottom: 2px solid brown;
+}
+
+.hang p {
+    text-indent: 30px;
+    font-size: 18px;
+}

@@ -1,0 +1,10 @@
+body {
+    background-image: url(../images/ci1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -570px 0px;
+}
+
+p {
+    text-indent: 20px;
+}

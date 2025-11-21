@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    /* display: flex; */
+    background-color: rgb(145, 54, 54);
+}
+
+.content {
+    width: 1280px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    /* overflow: hidden; */
+    margin: 30px auto;
+}
+
+img {
+    margin: 30px 10px;
+    width: 380px;
+    height: 200px;
+    border: 5px solid rgb(247, 232, 212);
+    box-shadow: 5px 5px 10px gray;
+    transition: transform 2s ease;
+}
+
+
+img:hover {
+    transform: rotate(360deg) scale(1.5);
+    border: 10px solid rgb(247, 232, 212);
+
+}
